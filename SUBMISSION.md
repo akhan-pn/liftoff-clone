@@ -10,21 +10,17 @@ asks for:
 5. ✅ **Screenshots of all major flows** — see [`screenshots/`](./screenshots/).
 6. ✅ **Reflection essay** — see [`REFLECTION.md`](./REFLECTION.md).
 
+## What's already done
+
+✅ **Public GitHub repo:** <https://github.com/akhan-pn/liftoff-clone>
+
+The repo is pushed, public, and ready to share with judges.
+
 ## What's left for you (Aaqeb) to do
 
 These steps require your accounts/identity and cannot be done autonomously:
 
-### 1. Push to GitHub
-```bash
-cd ~/liftoff-clone
-gh repo create liftoff-clone --public --source=. --remote=origin --push
-# OR if you don't have gh:
-# 1) create empty repo "liftoff-clone" on github.com (public)
-# 2) git remote add origin git@github.com:<you>/liftoff-clone.git
-# 3) git push -u origin main
-```
-
-### 2. Record the Loom walkthrough (3–5 minutes)
+### 1. Record the Loom walkthrough (3–5 minutes)
 Suggested script — this matches the 16 captured screenshots so judges can
 follow visually:
 
@@ -45,16 +41,21 @@ follow visually:
    tier-colored badges (Diamond, Platinum, Gold...) and your highlighted row.
 10. **Profile** (10s) — lifetime stats, kg/lb toggle, bodyweight edit.
 
-### 3. Attach your resume
+### 2. Attach your resume
 At the submission form, attach your existing CV.
 
-### 4. Submit
-Go to <https://8xengineer.com/contests/workout-tracker-gym-log> while logged
-into your 8x Engineer account and click Submit. Include:
-- GitHub URL
-- Loom URL
-- Resume attachment
-- A note pointing judges at `REFLECTION.md` and `AI_LOGS.md` in the repo.
+### 3. Submit on 8xengineer.com
+Log into your 8x Engineer account, open
+<https://8xengineer.com/contests/workout-tracker-gym-log> and click Submit.
+Paste in:
+
+- **GitHub URL:** `https://github.com/akhan-pn/liftoff-clone`
+- **Loom URL:** *(from step 1)*
+- **Resume:** *(from step 2)*
+- A short note pointing judges at `REFLECTION.md` and `AI_LOGS.md` in the
+  repo so they can see the build journal and reasoning.
+
+Deadline: **May 26, 2026** (~18 days from today, May 8).
 
 ## Verifying the build before submitting
 
